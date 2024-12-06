@@ -1,0 +1,28 @@
+<Recipes>
+    <Recipe RecipeName = "Nonsense Pie" Amount = "1" Price = "10">
+        <ItemRequirements ItemName = "Soup" Amount = "1" Type = "Consumable">
+        </ItemRequirements>
+        <ItemRequirements ItemName = "Fish Tank" Amount = "1" Type = "Ingredient">
+        </ItemRequirements>
+        <ItemRequirements ItemName = "Shrimp" Amount = "5" Type = "Consumable">
+        </ItemRequirements>
+        <CraftedItem ItemName = "Nonsense Pie" Amount = "1" ItemDescription = "A pie that makes no sense!" ItemValue = "100" Type = "Type.Consumable">
+        </CraftedItem>
+    </Recipe>
+    <Recipe RecipeName = "Shrimp Soup" Amount = "1" Price = "10">
+        <ItemRequirements ItemName = "Soup" Amount = "1" Type = "Consumable">
+        </ItemRequirements>
+        <ItemRequirements ItemName = "Shrimp" Amount = "5" Type = "Consumable">
+        </ItemRequirements>
+        <CraftedItem ItemName = "Shrimp Soup" Amount = "1" ItemDescription = "A bowl of soup with shrimp in it" ItemValue = "50">
+        </CraftedItem>
+    </Recipe>
+    <Recipe RecipeName = "Aquarium" Amount = "1" Price = "10">
+        <ItemRequirements ItemName = "Fish Tank" Amount = "1" Type = "Ingredient">
+        </ItemRequirements>
+        <ItemRequirements ItemName = "Shrimp" Amount = "5" Type = "Consumable">
+        </ItemRequirements>
+        <CraftedItem ItemName = "Aquarium" Amount = "1" ItemDescription = "A fish tank with living shrimps to feed" ItemValue = "125.99" Type = "Type.Object">
+        </CraftedItem>
+    </Recipe>
+</Recipes>
